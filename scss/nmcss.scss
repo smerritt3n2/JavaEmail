@@ -1,0 +1,29 @@
+h1 {
+    margin: 1em;
+    text-align: center;
+}
+
+img {
+    width: 35em; 
+    height: 25em; 
+    border-radius: 10%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid;
+    border-radius: 4em;
+    justify-content: space-around;
+    width: 60em;
+    padding: 1em;
+    margin: 0px auto;
+    
+}
+
+.content-container {
+    flex-direction: column;
+    display: flex;
+    margin: 1em;
+    justify-content: space-evenly;
+}
