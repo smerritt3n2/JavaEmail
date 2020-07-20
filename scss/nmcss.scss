@@ -27,3 +27,19 @@ img {
     margin: 1em;
     justify-content: space-evenly;
 }
+
+table {
+    margin: 10px auto;
+    width: 30em;
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    th {text-align: center;}
+    td {text-align: center;}
+
+}
